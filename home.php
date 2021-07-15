@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include "db.php";
 
 ?>
 
@@ -28,7 +29,7 @@ session_start();
         if($result->num_rows > 0){
             //output data of each row
             while($row=$result->fetch_assoc()){
-                echo "".$row['name']. " ".":: " . $row['$msg']." --" . $row['date']."<br>";
+                echo "".$row['name']. " ".":: " . $row['msg']." --" . $row['date']."<br>";
                 echo "<br>";
             }
         }else{
