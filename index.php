@@ -21,7 +21,7 @@
                     <input type="password" name="pass" class="form control p-2 col-md-6 border rounded col-12" placeholder="Password">
                 </div>
                 <div class="form-group p-2">
-                    <button type="submit"class="btn btn-info col-12 col-md-6">Login</button>
+                    <button type="submit"class="btn btn-info text-light col-12 col-md-6">Login</button>
                 </div>
             </form>
 
@@ -37,7 +37,7 @@
                     <input type="password" name="pass" class="form control p-2 col-md-6 col-12 border rounded " placeholder="Password">
                 </div>
                 <div class="form-group p-2">
-                    <button type="submit"class="btn btn-info col-md-6 col-12">Signup</button>
+                    <button type="submit"class="btn btn-info col-md-6 text-light col-12">Signup</button>
                 </div>  
             </form>
 
