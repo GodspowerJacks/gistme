@@ -11,7 +11,7 @@
     <div id="main">
         <div id="info" class="col-md-12 d-flex-column justify-content-center align-items-center">
 
-            <form action="login.php" method="post" class="col-md-6 d-flex row text-center mt-5 border rounded p-3">
+            <form action="login.php" method="post" class="col-md-6 d-flex border-bottom row text-center mt-5 m-auto rounded p-3">
             <h2>Login Here</h2>
 
                 <div class="form-group p-2">
@@ -25,8 +25,8 @@
                 </div>
             </form>
 
-            <form action="signup.php" method="post" class="col-md-6 d-flex row text-center mt-5 border rounded p-3">
-                <h5>Don't have an account please sign up here</h5>
+            <form action="signup.php" method="post" class="col-md-6 d-flex row text-center mt-5 m-auto rounded p-3">
+                <h6>Don't have an account please sign up here</h6>
                 <div class="form-group p-2">
                     <input type="text" name="uname" class="form control p-2 col-md-6 col-12 border rounded " placeholder="Username">
                 </div>
